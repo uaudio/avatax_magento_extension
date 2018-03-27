@@ -1,0 +1,135 @@
+<_>
+   <form_key>T4QnHUZUeBJkAnqG</form_key>
+   <name>OnePica_AvaTax</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>This extension integrates Magento with AvaTax, a tax service provided by Avalara. This will replace existing Magento-based, zipcode tax calculation with the more complex and centralized rules AvaTax provides.</summary>
+   <description>This extension integrates Magento with AvaTax, a tax service provided by Avalara. This will replace existing Magento-based, zipcode tax calculation with the more complex and centralized rules AvaTax provides.
+
+For details about AvaTax and the functionality it provides, please visit www.avalara.com.
+
+Released as a commercial extension, this software will not work unless you have a valid AvaTax account. To obtain the installation key, please contact your Avalara representative.
+
+At One Pica (www.onepica.com), we strive to build increasingly scalable and flexible enterprise systems for all of our clients, large and small. We want to give back to this community both to promote its success and as a sign of our gratitude. Please feel free to contact us on ways we can improve this extension or extend on this framework.</description>
+   <license>Open Software License (OSL 3.0)</license>
+   <license_uri/>
+   <version>3.5.7</version>
+   <stability>stable</stability>
+   <notes>Implemented SOAP Logging for Avatax API transactions.&amp;#xD;
+Implemented ability to disable normalization during checkout.&amp;#xD;
+Fixed link to documentation in readme.md.&amp;#xD;
+Fixed M1.4 error: Call to undefined method Varien_Date::now().&amp;#xD;
+Fixed Magento SOAP API Error (quote object absence during order creation).&amp;#xD;
+Fixed Dependency control appearance in AvaTax configuration for earlier magento versions.&amp;#xD;
+Fixed link of How to Setup Cron job.</notes>
+   <authors>
+      <name>
+         <name>Universal Audio</name>
+      </name>
+      <user>
+         <user>cloud</user>
+      </user>
+      <email>
+         <email>cloud@uaudio.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.3</depends_php_min>
+   <depends_php_max>7.9.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>                   </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+            <name>Core</name>
+            <name>curl</name>
+            <name>soap</name>
+         </name>
+         <min>
+            <min/>
+            <min/>
+            <min/>
+            <min/>
+         </min>
+         <max>
+            <max/>
+            <max/>
+            <max/>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magelocale</target>
+         <target>magelib</target>
+      </target>
+      <path>
+         <path/>
+         <path>OnePica</path>
+         <path>modules/OnePica_AvaTax.xml</path>
+         <path>adminhtml/default/default/layout/onepica</path>
+         <path>adminhtml/default/default/template/onepica</path>
+         <path>frontend/base/default/layout/onepica</path>
+         <path/>
+         <path>AvaTax</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include>#OnePica_AvaTax.csv#</include>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+   <page>1</page>
+   <limit>200</limit>
+   <folder/>
+   <package/>
+</_>
