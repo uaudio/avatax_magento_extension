@@ -1,5 +1,5 @@
 <_>
-   <form_key>fueXct6zgC7h0XCw</form_key>
+   <form_key>OEhMdrHpAmkhS7S5</form_key>
    <name>OnePica_AvaTax</name>
    <channel>community</channel>
    <version_ids>
@@ -52,7 +52,7 @@ Fixed link of How to Setup Cron job.</notes>
             <max/>
          </max>
          <files>
-            <files>                     </files>
+            <files>                      </files>
          </files>
       </package>
       <extension>
@@ -90,6 +90,7 @@ Fixed link of How to Setup Cron job.</notes>
          <target>magelib</target>
          <target>magelocal</target>
          <target>mageweb</target>
+         <target>magedesign</target>
       </target>
       <path>
          <path/>
@@ -104,6 +105,7 @@ Fixed link of How to Setup Cron job.</notes>
          <path>AvaTaxEcomSDK</path>
          <path>AvaTaxRestV2</path>
          <path>js/avatax/</path>
+         <path>frontend/base/default/template/onepica/</path>
       </path>
       <type>
          <type>file</type>
@@ -118,6 +120,7 @@ Fixed link of How to Setup Cron job.</notes>
          <type>dir</type>
          <type>dir</type>
          <type>dir</type>
+         <type>dir</type>
       </type>
       <include>
          <include/>
@@ -127,6 +130,7 @@ Fixed link of How to Setup Cron job.</notes>
          <include/>
          <include/>
          <include>#OnePica_AvaTax.csv#</include>
+         <include/>
          <include/>
          <include/>
          <include/>
@@ -146,6 +150,11 @@ Fixed link of How to Setup Cron job.</notes>
          <ignore/>
          <ignore/>
          <ignore/>
+         <ignore/>
       </ignore>
    </contents>
+   <page>1</page>
+   <limit>200</limit>
+   <folder/>
+   <package/>
 </_>
